@@ -65,4 +65,3 @@
 #         if num // i != i:
 #             result.append(num//i)
 # print(sorted(result))
-
