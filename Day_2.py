@@ -111,3 +111,36 @@
 #     fun(sum+x, x+1, n)
 # fun(0, 1, 5)
 
+# def fun(n):
+#     if n == 0:
+#         return 0
+#     return n + fun(n - 1)
+# print(fun(5))
+
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     return n * factorial(n - 1)
+# print(factorial(5))
+
+# arr = [5, 7, 3, 2, 6, 1, 5, 9]
+# def reverse(arr, left, right):
+#     if left >= right:
+#         return
+#     arr[left], arr[right] = arr[right], arr[left]
+#     reverse(arr, left + 1, right - 1)
+# reverse(arr, 0, len(arr) - 1)
+# print(arr)
+
+# s = 'abcdcba'
+# left = 0
+# right = len(s) - 1
+# while left < right:
+#     if s[left] != s[right]:
+#         print(False)
+#         break
+#     left += 1
+#     right -= 1
+# else:
+#     print(True)
+
