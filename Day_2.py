@@ -104,3 +104,10 @@
 #     print(n)
 # fun(5)
 
+# def fun(sum, x, n):
+#     if x > n:
+#         print(sum)
+#         return
+#     fun(sum+x, x+1, n)
+# fun(0, 1, 5)
+
