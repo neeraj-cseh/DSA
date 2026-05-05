@@ -144,11 +144,18 @@
 # else:
 #     print(True)
 
-def pal(s, left, right):
-    if left >= right:
-        return True
-    if s[left] != s[right]:
-        return False
-    return pal(s, left + 1, right - 1)
-s = 'abcdcba'
-print(pal(s, 0, len(s) - 1))
+# def pal(s, left, right):
+#     if left >= right:
+#         return True
+#     if s[left] != s[right]:
+#         return False
+#     return pal(s, left + 1, right - 1)
+# s = 'abcdcba'
+# print(pal(s, 0, len(s) - 1))
+
+# def fib(n):
+#     if n == 1 or n == 0:
+#         return n
+#     return fib(n - 1) + fib(n - 2)
+# print(fib(6))
+
