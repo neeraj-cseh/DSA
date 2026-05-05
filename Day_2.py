@@ -83,3 +83,24 @@
 #     fun(x+1, n)
 # fun(1, 5)
 
+# def fun (x, n):
+#     if x > n:
+#         return
+#     fun(x+1, n)
+#     print(x)
+# fun(1, 5)
+
+# def fun(n):
+#     if n == 0:
+#         return
+#     print(n)
+#     fun(n - 1)
+# fun(5)
+
+# def fun(n):
+#     if n == 0:
+#         return
+#     fun(n - 1)
+#     print(n)
+# fun(5)
+
