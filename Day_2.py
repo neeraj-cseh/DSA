@@ -144,3 +144,11 @@
 # else:
 #     print(True)
 
+def pal(s, left, right):
+    if left >= right:
+        return True
+    if s[left] != s[right]:
+        return False
+    return pal(s, left + 1, right - 1)
+s = 'abcdcba'
+print(pal(s, 0, len(s) - 1))
