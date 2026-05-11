@@ -159,3 +159,25 @@
 #     return fib(n - 1) + fib(n - 2)
 # print(fib(6))
 
+# def selection_sort(arr):
+#     n = len(arr)
+#     for i in range(n):
+#         min_index = i
+#         for j in range(i+1, n):
+#             if arr[j] < arr[min_index]:
+#                 min_index = j
+#         arr[i], arr[min_index] = arr[min_index], arr[i]
+# arr = [5,7, 8, 4, 1, 6, 9, 2]
+# selection_sort(arr)
+# print(arr)
+
+# def bubble_sort(arr):
+#     n = len(arr)
+#     for i in range(n-2, -1, -1):
+#         for j in range(0, i+1):
+#             if arr[j] > arr[j+1]:
+#                 arr[j], arr[j+1] = arr[j+1], arr[j]
+# arr = [5, 1, 6, 8, 2, 4, 9]
+# bubble_sort(arr)
+# print(arr)
+
